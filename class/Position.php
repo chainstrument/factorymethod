@@ -15,9 +15,9 @@ class Position
         $this->x = $x;
     }
 
-    public function getX($x)
+    public function getX()
     {
-       return $this->x = $x;
+       return $this->x;
     }
 
     public function setY($y)
@@ -25,8 +25,8 @@ class Position
         $this->y = $y;
     }
 
-    public function getY($y)
+    public function getY()
     {
-       return $this->y = $y;
+       return $this->y;
     }
 }
